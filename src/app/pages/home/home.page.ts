@@ -22,11 +22,11 @@ export class HomePage implements OnInit {
   }
 
   openNewItemPage(){
-    this.router.navigate(["/new-item"]);
+    this.router.navigate(['/new-item']);
   }
 
   goToItem(item){
-    this.router.navigate(["/update-item", item]);
+    this.router.navigate(['/update-item', item]);
   }
 
 }

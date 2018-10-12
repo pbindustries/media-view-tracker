@@ -1,8 +1,8 @@
 {
-  "name": "ionic4-starter-app",
+  "name": "media-view-saver",
   "version": "0.0.1",
-  "author": "IonicThemes",
-  "homepage": "https://ionicthemes.com/",
+  "author": "Philip Bankier",
+  "homepage": "https://philipbankier.com/",
   "scripts": {
     "ng": "ng",
     "start": "ionic serve",
@@ -56,5 +56,14 @@
     "tslint": "~5.11.0",
     "typescript": "~2.9.2"
   },
-  "description": "IonicThemes Ionic4 Tutorial"
+  "description": "helps you keep track of where you are in movies and tv shows and creates a list of what you have seen.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pbindustries/media-view-tracker"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pbindustries/media-view-tracker/issues"
+  }
 }
